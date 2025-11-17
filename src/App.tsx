@@ -1,7 +1,4 @@
-import Division from "./components/Division"
-import Multiplication from "./components/Multiplication"
-import Substraction from "./components/Substraction"
-import Sum from "./components/Sum"
+import Operation from "./components/Operation"
 
 export default function App() {
 
@@ -10,10 +7,7 @@ export default function App() {
     <div>
       <h1>Simple Calculator</h1>
 
-      <Sum />
-      <Substraction />
-      <Multiplication />
-      <Division />
+      <Operation />
 
     </div>
   )
